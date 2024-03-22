@@ -27,6 +27,7 @@ function search() {
                 resultItem.appendChild(titleElement);
 
                 var thumbnailElement = document.createElement("img");
+                thumbnailElement.classList.add("thumbnail");
                 thumbnailElement.src = thumbnail;
                 resultItem.appendChild(thumbnailElement);
 
