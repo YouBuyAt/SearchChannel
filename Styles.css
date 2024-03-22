@@ -1,19 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
 .search-container {
     text-align: center;
     margin-top: 50px;
 }
 
-#search-results {
-    margin-top: 20px;
-}
-
-.result {
-    margin-bottom: 10px;
+#search-input {
     padding: 10px;
-    border: 1px solid #ccc;
+    width: 300px;
 }
 
-.thumbnail {
-    max-width: 100px;
-    max-height: 100px;
+button {
+    padding: 10px 20px;
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #357ae8;
+}
+
+#results-container {
+    margin-top: 20px;
 }
