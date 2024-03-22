@@ -1,0 +1,14 @@
+.search-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#search-results {
+    margin-top: 20px;
+}
+
+.result {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
